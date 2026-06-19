@@ -18,3 +18,7 @@ Requerimientos de Seguridad/Confianza (Ethos):
 - Control de Accesos por Roles (RBAC): Para generar confianza en el dueño del negocio, la interfaz debe restringir las acciones según el puesto: el Gerente tendrá permisos totales, el personal de Almacén solo gestionará existencias, y el equipo de Cocina únicamente visualizará procedimientos, impidiendo que empleados no autorizados alteren costos o datos críticos.
 - Autenticación Segura y Manejo de Sesiones: El ingreso a la plataforma web de GetRest debe realizarse mediante credenciales individuales encriptadas, implementando políticas de cierre de sesión automático tras periodos de inactividad, evitando que personal ajeno acceda al sistema si una pantalla se queda abierta en el área de cocina.
 - Encriptación de Recetas y Fórmulas de Costeo: El sistema debe cifrar mediante algoritmos seguros, toda la información almacenada sobre los ingredientes y procedimientos de las recetas, garantizando que el restaurante esté protegido contra filtraciones externas.
+
+Requerimientos añadidos:
+- Base de datos de proveedores, datos ligados a la alarma.
+- Historial y gráfica de productos más vendidos y menos vendidos.
