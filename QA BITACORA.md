@@ -1,3 +1,4 @@
+# QA Bitácora.
 ## 1. Módulo de Seguridad y Navegación
 | Id de Prueba | Nombre de la integración | Módulo de Origen | Módulo destino | Resultado esperado | Estado Actual |
 | SEC-01 | Validación de Sesión | URL directa (cualquiera) | Pantalla de Login | Impide entrar y redirige al login si no hay sesión. | PASA |
